@@ -84,35 +84,351 @@ Some experience with algorithms beyond the introductory level will be helpful, b
 Calendar
 --------
 
-| SES # | TOPICS | KEY DATES |
-| --- | --- | --- |
-| {{< td-colspan 3 >}}**Spectral Graph Theory**{{< /td-colspan >}} |||
-| 1 | Linear algebra review, adjacency and Laplacian matrices associated with a graph, example Laplacians | &nbsp; |
-| 2 | Properties of the Laplacian, positive semidefinite matricies, spectra of common graphs, connection to the continuous Laplacian | &nbsp; |
-| 3 | Courant-Fischer and Rayleigh quotients, graph cutting, Cheerger's Inequality | &nbsp; |
-| 4 | (Lazy) random walks, their stationary distribution and l2-convergence, normalized Laplacian, conductance, Monte Carlo methods | &nbsp; |
-| 5 | Monte Carlo methods continued, approximate DNF counting, approximating the permanent of 0-1 matrices | &nbsp; |
-| 6 | Diameters and eigenvalues, expander graphs | &nbsp; |
-| 7 | Nonblocking routing networks, local and almost-linear time clustering and partitioning, Lovasz-Simonovits Theorem | &nbsp; |
-| 8 | Local and almost-linear time clustering and partitioning (cont.), PageRank, introduction to sparsification | &nbsp; |
-| 9 | Sparsification (combinatorial and spectral), effective resistance, matrix pseudoinverses and tail bounds | &nbsp; |
-| 10 | Spectral sparsification (cont.), introduction to convex geometry | Problem set 1 due |
-| {{< td-colspan 3 >}}**Convex Geometry**{{< /td-colspan >}} |||
-| 11 | Polar of a convex body, separating hyperplanes, norms and convex bodies, Banach-Mazur distance, Fritz John's theorem | &nbsp; |
-| 12 | Separating hyperplanes (cont.), Banach-Mazur distance, Fritz John's theorem, Brunn-Minkowski inequality | &nbsp; |
-| 13 | Brunn-Minkowski inequality (cont.), Brunn's theorem, isoperimetric inequality, Grunbaum's theorem | &nbsp; |
-| 14 | Approximating the volume of a convex body | &nbsp; |
-| 15 | Random sampling from a convex body (cont.), grid walk, introduction to concentration of measure | &nbsp; |
-| 16 | Concentration of measure and the isoperimetric inequality, Johnson-Lindenstrauss theorem | &nbsp; |
-| 17 | Johnson-Lindenstrauss theorem (cont.), Dvoretsky's theorem | &nbsp; |
-| {{< td-colspan 3 >}}**Lattices and Basis Reduction**{{< /td-colspan >}} |||
-| 18 | Lattices, fundamental parallelepiped and dual of a lattice, shortest vectors, Blichfield's theorem | &nbsp; |
-| 19 | Minkowski's theorem, shortest/closest vector problem, lattice basis reduction, Gauss' algorithm | &nbsp; |
-| 20 | LLL algorithm for lattice basis reduction, application to integer programming | Problem set 2 due |
-| {{< td-colspan 3 >}}**Iterative Methods for Linear Algebra**{{< /td-colspan >}} |||
-| 21 | Iterative methods to solve linear systems, steepest descent | &nbsp; |
-| 22 | Convergence analysis of steepest descent and conjugate gradients | &nbsp; |
-| 23 | Preconditioning on Laplacians, ultra-sparsifiers | &nbsp; |
-| {{< td-colspan 3 >}}**Multiplicative Weights**{{< /td-colspan >}} |||
-| 24 | Multiplicative weights | &nbsp; |
-| 25 | Multiplicative weights and applications to zero-sum games, linear programming, boosting, and approximation algorithms | Problem set 3 due
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+SES #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+KEY DATES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Spectral Graph Theory**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Linear algebra review, adjacency and Laplacian matrices associated with a graph, example Laplacians
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Properties of the Laplacian, positive semidefinite matricies, spectra of common graphs, connection to the continuous Laplacian
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Courant-Fischer and Rayleigh quotients, graph cutting, Cheerger's Inequality
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+(Lazy) random walks, their stationary distribution and l2-convergence, normalized Laplacian, conductance, Monte Carlo methods
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Monte Carlo methods continued, approximate DNF counting, approximating the permanent of 0-1 matrices
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Diameters and eigenvalues, expander graphs
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Nonblocking routing networks, local and almost-linear time clustering and partitioning, Lovasz-Simonovits Theorem
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Local and almost-linear time clustering and partitioning (cont.), PageRank, introduction to sparsification
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Sparsification (combinatorial and spectral), effective resistance, matrix pseudoinverses and tail bounds
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Spectral sparsification (cont.), introduction to convex geometry
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 1 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Convex Geometry**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Polar of a convex body, separating hyperplanes, norms and convex bodies, Banach-Mazur distance, Fritz John's theorem
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Separating hyperplanes (cont.), Banach-Mazur distance, Fritz John's theorem, Brunn-Minkowski inequality
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Brunn-Minkowski inequality (cont.), Brunn's theorem, isoperimetric inequality, Grunbaum's theorem
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Approximating the volume of a convex body
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Random sampling from a convex body (cont.), grid walk, introduction to concentration of measure
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Concentration of measure and the isoperimetric inequality, Johnson-Lindenstrauss theorem
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Johnson-Lindenstrauss theorem (cont.), Dvoretsky's theorem
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Lattices and Basis Reduction**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Lattices, fundamental parallelepiped and dual of a lattice, shortest vectors, Blichfield's theorem
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Minkowski's theorem, shortest/closest vector problem, lattice basis reduction, Gauss' algorithm
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+LLL algorithm for lattice basis reduction, application to integer programming
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 2 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Iterative Methods for Linear Algebra**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Iterative methods to solve linear systems, steepest descent
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Convergence analysis of steepest descent and conjugate gradients
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Preconditioning on Laplacians, ultra-sparsifiers
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Multiplicative Weights**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+Multiplicative weights
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+25
+{{< tdclose >}}
+{{< tdopen >}}
+Multiplicative weights and applications to zero-sum games, linear programming, boosting, and approximation algorithms
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 3 due
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
